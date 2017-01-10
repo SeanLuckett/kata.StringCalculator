@@ -1,4 +1,3 @@
-require 'rspec'
 require 'string_calculator'
 
 describe StringCalculator, '#add' do
