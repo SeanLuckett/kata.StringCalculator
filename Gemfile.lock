@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    byebug (9.0.5)
     coderay (1.1.0)
     diff-lcs (1.2.5)
     method_source (0.8.2)
@@ -8,6 +9,9 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
+    pry-byebug (3.4.0)
+      byebug (~> 9.0)
+      pry (~> 0.10)
     rake (10.4.2)
     rspec (3.3.0)
       rspec-core (~> 3.3.0)
@@ -29,6 +33,7 @@ PLATFORMS
 
 DEPENDENCIES
   pry (~> 0.10.1)
+  pry-byebug
   rake
   rspec (~> 3.3.0)
 
